@@ -1,0 +1,11 @@
+{% extends "layout.html" %}
+
+{% block body %}
+
+    <h1>You are successfully registered to {{ sport }} !</h1>
+
+    <form action="/see_list" method="get">
+        <input type="submit" value="See full regristrants list">
+    </form>
+
+{% endblock %}
